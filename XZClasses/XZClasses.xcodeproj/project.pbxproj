@@ -13,6 +13,7 @@
 		52EBC1A11F1DAECF00AE52F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EBC1A01F1DAECF00AE52F9 /* Assets.xcassets */; };
 		52EBC1A41F1DAECF00AE52F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBC1A21F1DAECF00AE52F9 /* LaunchScreen.storyboard */; };
 		52EBC1B51F1DB0A200AE52F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBC1B21F1DB0A200AE52F9 /* AppDelegate.m */; };
+		52EBC1CF1F1DBE9D00AE52F9 /* UIView+XZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBC1CE1F1DBE9D00AE52F9 /* UIView+XZC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		52EBC1A51F1DAECF00AE52F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52EBC1B11F1DB0A200AE52F9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52EBC1B21F1DB0A200AE52F9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52EBC1B61F1DBACE00AE52F9 /* XZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCategory.h; sourceTree = "<group>"; };
+		52EBC1CD1F1DBE9D00AE52F9 /* UIView+XZC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZC.h"; sourceTree = "<group>"; };
+		52EBC1CE1F1DBE9D00AE52F9 /* UIView+XZC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,9 @@
 		52EBC1B31F1DB0A200AE52F9 /* XZCategory */ = {
 			isa = PBXGroup;
 			children = (
+				52EBC1C61F1DBE9D00AE52F9 /* Views */,
+				52EBC1C41F1DBD5600AE52F9 /* Models */,
+				52EBC1B61F1DBACE00AE52F9 /* XZCategory.h */,
 			);
 			path = XZCategory;
 			sourceTree = "<group>";
@@ -109,6 +116,78 @@
 			children = (
 			);
 			path = XZExtension;
+			sourceTree = "<group>";
+		};
+		52EBC1C41F1DBD5600AE52F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52EBC1C51F1DBE8300AE52F9 /* UIColor+XZC */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52EBC1C51F1DBE8300AE52F9 /* UIColor+XZC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIColor+XZC";
+			sourceTree = "<group>";
+		};
+		52EBC1C61F1DBE9D00AE52F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52EBC1C71F1DBE9D00AE52F9 /* UIButton+XZC */,
+				52EBC1C81F1DBE9D00AE52F9 /* UIImage+XZC */,
+				52EBC1C91F1DBE9D00AE52F9 /* UIScreen+XZC */,
+				52EBC1CA1F1DBE9D00AE52F9 /* UIStoryboard+XZC */,
+				52EBC1CB1F1DBE9D00AE52F9 /* UITextField+XZC */,
+				52EBC1CC1F1DBE9D00AE52F9 /* UIView+XZC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52EBC1C71F1DBE9D00AE52F9 /* UIButton+XZC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIButton+XZC";
+			sourceTree = "<group>";
+		};
+		52EBC1C81F1DBE9D00AE52F9 /* UIImage+XZC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIImage+XZC";
+			sourceTree = "<group>";
+		};
+		52EBC1C91F1DBE9D00AE52F9 /* UIScreen+XZC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIScreen+XZC";
+			sourceTree = "<group>";
+		};
+		52EBC1CA1F1DBE9D00AE52F9 /* UIStoryboard+XZC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIStoryboard+XZC";
+			sourceTree = "<group>";
+		};
+		52EBC1CB1F1DBE9D00AE52F9 /* UITextField+XZC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UITextField+XZC";
+			sourceTree = "<group>";
+		};
+		52EBC1CC1F1DBE9D00AE52F9 /* UIView+XZC */ = {
+			isa = PBXGroup;
+			children = (
+				52EBC1CD1F1DBE9D00AE52F9 /* UIView+XZC.h */,
+				52EBC1CE1F1DBE9D00AE52F9 /* UIView+XZC.m */,
+			);
+			path = "UIView+XZC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EBC1CF1F1DBE9D00AE52F9 /* UIView+XZC.m in Sources */,
 				52EBC19C1F1DAECF00AE52F9 /* ViewController.m in Sources */,
 				52EBC1961F1DAECF00AE52F9 /* main.m in Sources */,
 				52EBC1B51F1DB0A200AE52F9 /* AppDelegate.m in Sources */,
@@ -344,6 +424,7 @@
 				52EBC1AA1F1DAECF00AE52F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
