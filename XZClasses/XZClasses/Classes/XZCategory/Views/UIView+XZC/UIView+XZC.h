@@ -10,4 +10,10 @@
 
 @interface UIView (XZC)
 
+@property(nonatomic,assign)float frameX;
+@property(nonatomic,assign)float frameY;
+@property(nonatomic,assign)float frameWidth;
+@property(nonatomic,assign)float frameHeight;
+
+
 @end

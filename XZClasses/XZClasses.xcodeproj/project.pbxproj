@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5202A8C01F26E45900B2E264 /* UITextField+XZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5202A8BF1F26E45900B2E264 /* UITextField+XZC.m */; };
+		5202A8C41F26E5A000B2E264 /* NSString+XZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5202A8C31F26E5A000B2E264 /* NSString+XZC.m */; };
+		5202A8CC1F26FAED00B2E264 /* XZCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5202A8CB1F26FAED00B2E264 /* XZCheckTool.m */; };
+		5202A8CF1F2710C600B2E264 /* UIStoryboard+XZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5202A8CE1F2710C600B2E264 /* UIStoryboard+XZC.m */; };
+		5202A8D21F27116D00B2E264 /* UIScreen+XZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5202A8D11F27116D00B2E264 /* UIScreen+XZC.m */; };
+		5202A8D51F2711DD00B2E264 /* UIImage+XZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5202A8D41F2711DD00B2E264 /* UIImage+XZC.m */; };
+		5202A8DB1F27129C00B2E264 /* UIButton+XZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5202A8DA1F27129C00B2E264 /* UIButton+XZC.m */; };
 		52EBC1961F1DAECF00AE52F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBC1951F1DAECF00AE52F9 /* main.m */; };
 		52EBC19C1F1DAECF00AE52F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBC19B1F1DAECF00AE52F9 /* ViewController.m */; };
 		52EBC19F1F1DAECF00AE52F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBC19D1F1DAECF00AE52F9 /* Main.storyboard */; };
@@ -17,6 +24,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5202A8BE1F26E45900B2E264 /* UITextField+XZC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+XZC.h"; sourceTree = "<group>"; };
+		5202A8BF1F26E45900B2E264 /* UITextField+XZC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XZC.m"; sourceTree = "<group>"; };
+		5202A8C21F26E5A000B2E264 /* NSString+XZC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZC.h"; sourceTree = "<group>"; };
+		5202A8C31F26E5A000B2E264 /* NSString+XZC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZC.m"; sourceTree = "<group>"; };
+		5202A8C61F26FAA500B2E264 /* XZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZExtension.h; sourceTree = "<group>"; };
+		5202A8CA1F26FAED00B2E264 /* XZCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCheckTool.h; sourceTree = "<group>"; };
+		5202A8CB1F26FAED00B2E264 /* XZCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCheckTool.m; sourceTree = "<group>"; };
+		5202A8CD1F2710C600B2E264 /* UIStoryboard+XZC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+XZC.h"; sourceTree = "<group>"; };
+		5202A8CE1F2710C600B2E264 /* UIStoryboard+XZC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+XZC.m"; sourceTree = "<group>"; };
+		5202A8D01F27116D00B2E264 /* UIScreen+XZC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+XZC.h"; sourceTree = "<group>"; };
+		5202A8D11F27116D00B2E264 /* UIScreen+XZC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+XZC.m"; sourceTree = "<group>"; };
+		5202A8D31F2711DD00B2E264 /* UIImage+XZC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZC.h"; sourceTree = "<group>"; };
+		5202A8D41F2711DD00B2E264 /* UIImage+XZC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZC.m"; sourceTree = "<group>"; };
+		5202A8D91F27129C00B2E264 /* UIButton+XZC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XZC.h"; sourceTree = "<group>"; };
+		5202A8DA1F27129C00B2E264 /* UIButton+XZC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XZC.m"; sourceTree = "<group>"; };
 		52EBC1911F1DAECF00AE52F9 /* XZClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EBC1951F1DAECF00AE52F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52EBC19A1F1DAECF00AE52F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -43,6 +65,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5202A8C11F26E57F00B2E264 /* NSString+XZC */ = {
+			isa = PBXGroup;
+			children = (
+				5202A8C21F26E5A000B2E264 /* NSString+XZC.h */,
+				5202A8C31F26E5A000B2E264 /* NSString+XZC.m */,
+			);
+			path = "NSString+XZC";
+			sourceTree = "<group>";
+		};
+		5202A8C51F26FA7800B2E264 /* XZCheckTool */ = {
+			isa = PBXGroup;
+			children = (
+				5202A8CA1F26FAED00B2E264 /* XZCheckTool.h */,
+				5202A8CB1F26FAED00B2E264 /* XZCheckTool.m */,
+			);
+			path = XZCheckTool;
+			sourceTree = "<group>";
+		};
 		52EBC1881F1DAECF00AE52F9 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +154,8 @@
 		52EBC1B41F1DB0A200AE52F9 /* XZExtension */ = {
 			isa = PBXGroup;
 			children = (
+				5202A8C61F26FAA500B2E264 /* XZExtension.h */,
+				5202A8C51F26FA7800B2E264 /* XZCheckTool */,
 			);
 			path = XZExtension;
 			sourceTree = "<group>";
@@ -121,6 +163,7 @@
 		52EBC1C41F1DBD5600AE52F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5202A8C11F26E57F00B2E264 /* NSString+XZC */,
 				52EBC1C51F1DBE8300AE52F9 /* UIColor+XZC */,
 			);
 			path = Models;
@@ -149,6 +192,8 @@
 		52EBC1C71F1DBE9D00AE52F9 /* UIButton+XZC */ = {
 			isa = PBXGroup;
 			children = (
+				5202A8D91F27129C00B2E264 /* UIButton+XZC.h */,
+				5202A8DA1F27129C00B2E264 /* UIButton+XZC.m */,
 			);
 			path = "UIButton+XZC";
 			sourceTree = "<group>";
@@ -156,6 +201,8 @@
 		52EBC1C81F1DBE9D00AE52F9 /* UIImage+XZC */ = {
 			isa = PBXGroup;
 			children = (
+				5202A8D31F2711DD00B2E264 /* UIImage+XZC.h */,
+				5202A8D41F2711DD00B2E264 /* UIImage+XZC.m */,
 			);
 			path = "UIImage+XZC";
 			sourceTree = "<group>";
@@ -163,6 +210,8 @@
 		52EBC1C91F1DBE9D00AE52F9 /* UIScreen+XZC */ = {
 			isa = PBXGroup;
 			children = (
+				5202A8D01F27116D00B2E264 /* UIScreen+XZC.h */,
+				5202A8D11F27116D00B2E264 /* UIScreen+XZC.m */,
 			);
 			path = "UIScreen+XZC";
 			sourceTree = "<group>";
@@ -170,6 +219,8 @@
 		52EBC1CA1F1DBE9D00AE52F9 /* UIStoryboard+XZC */ = {
 			isa = PBXGroup;
 			children = (
+				5202A8CD1F2710C600B2E264 /* UIStoryboard+XZC.h */,
+				5202A8CE1F2710C600B2E264 /* UIStoryboard+XZC.m */,
 			);
 			path = "UIStoryboard+XZC";
 			sourceTree = "<group>";
@@ -177,6 +228,8 @@
 		52EBC1CB1F1DBE9D00AE52F9 /* UITextField+XZC */ = {
 			isa = PBXGroup;
 			children = (
+				5202A8BE1F26E45900B2E264 /* UITextField+XZC.h */,
+				5202A8BF1F26E45900B2E264 /* UITextField+XZC.m */,
 			);
 			path = "UITextField+XZC";
 			sourceTree = "<group>";
@@ -262,10 +315,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5202A8D21F27116D00B2E264 /* UIScreen+XZC.m in Sources */,
+				5202A8D51F2711DD00B2E264 /* UIImage+XZC.m in Sources */,
 				52EBC1CF1F1DBE9D00AE52F9 /* UIView+XZC.m in Sources */,
+				5202A8CC1F26FAED00B2E264 /* XZCheckTool.m in Sources */,
+				5202A8C01F26E45900B2E264 /* UITextField+XZC.m in Sources */,
 				52EBC19C1F1DAECF00AE52F9 /* ViewController.m in Sources */,
+				5202A8CF1F2710C600B2E264 /* UIStoryboard+XZC.m in Sources */,
+				5202A8C41F26E5A000B2E264 /* NSString+XZC.m in Sources */,
 				52EBC1961F1DAECF00AE52F9 /* main.m in Sources */,
 				52EBC1B51F1DB0A200AE52F9 /* AppDelegate.m in Sources */,
+				5202A8DB1F27129C00B2E264 /* UIButton+XZC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
